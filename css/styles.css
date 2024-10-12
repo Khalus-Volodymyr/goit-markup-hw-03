@@ -241,8 +241,7 @@ img {
 
 .team-list {
   display: flex;
-  column-gap: 24px;
-  row-gap: 48px;
+  gap: 24px;
 }
 
 .team-member {
@@ -295,9 +294,9 @@ img {
 }
 
 .portfolio-card-info {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 16px;
   text-align: left;
+  border: 1px solid #e7e9fc;
 }
 
 .portfolio-title.card-name {
@@ -312,7 +311,6 @@ img {
 }
 
 .portfolio-item {
-  border: 1px solid #e7e9fc;
   width: calc((100% - 2 * 24px) / 3);
 }
 
